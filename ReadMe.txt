@@ -43,8 +43,7 @@ This software doesn't require any installation. Just drop the files into a folde
 
 4. USAGE
 
-To run the software, run the file 'Main.m' or type in 'Main' in the MATLAB command window. The script will take care of
-all the rest and start a graphical user interface. 
+To run the software, run the file 'Main.m' or type in 'Main' in the MATLAB command window. The script will take care of all the rest and start a graphical user interface. 
 
 The basic usage is as follows:
 - Open Two faces: Face 1 & Face 2
