@@ -1,6 +1,4 @@
-=========
- A Simple Face Morphing DEMO
-=========
+##A Simple Face Morphing DEMO##
  
  Yinjie Huang
  
@@ -11,42 +9,44 @@
  2013
  
  
-CONTENTS:
+###CONTENTS###
 
 
-1. General Information
-2. Requirements
-3. Installation
-4. Usage
-5. References
+- General Information
+- Requirements
+- Installation
+- Usage
+- References
 
 ==================================
 
-1.GENERAL INFORMATION
+###GENERAL INFORMATION###
 
 This software was written as the demo of RET project Summer 2013. It represents an implementation of an automatic Eyes & Mouth detection algorithm and face morphing algorihm, including a complete graphical user interface (GUI). All rights belong to the author.
 
 
 
-2.REQUIREMENTS
+###REQUIREMENTS###
 
 To run this software, you need to have the following components installed:
+
 - Mathworks MATLAB
 - Mathworks Image Processing Toolbox
 
 
 
-3.INSTALLATION
+###INSTALLATION###
 
 This software doesn't require any installation. Just drop the files into a folder.
 
 
 
-4.USAGE
+###USAGE###
 
 To run the software, run the file 'Main.m' or type in 'Main' in the MATLAB command window. The script will take care of all the rest and start a graphical user interface. 
 
 The basic usage is as follows:
+
 - Open Two faces: Face 1 & Face 2
 - Automatic detect Eyes and Mouth in each face
 - The detection algorithm may fail. You could fix the positions of eyes or mouths. For example, after clicking button 'Left Eye', click the true eye area in the image and a box should pop out to tell you the true coordinates of your click. Finally, click "Left Eye" again to finish this fix action. Click "Done", you will see the detection results are changed.
@@ -55,7 +55,7 @@ The basic usage is as follows:
 
 
 
-5.References
+###References###
 
 - https://ccrma.stanford.edu/~jacobliu/368Report/
 - Rein-Lien Hsu; Abdel-Mottaleb, M.; Jain, A.K., "Face detection in color images," Pattern Analysis and Machine Intelligence, IEEE Transactions on , vol.24, no.5, pp.696,706, May 2002
